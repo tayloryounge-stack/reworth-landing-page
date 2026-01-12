@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>ReWorth - 科学计算消费价值，让每一分钱都物有所值 | CPW单次使用成本计算器</title>
+  <meta name="title" content="ReWorth - 科学计算消费价值，让每一分钱都物有所值">
+  <meta name="description" content="ReWorth是一款免费的CPW（单次使用成本）计算App，帮助你科学评估健身卡、奢侈品包包、数码产品等消费的真实价值。通过精确追踪使用频率，让你的每一次消费决策都更明智。">
+  <meta name="keywords" content="CPW计算器,单次使用成本,消费价值评估,健身卡回本计算,奢侈品折旧,理性消费,可持续消费,消费决策工具">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://reworth.app/">
+  <meta property="og:title" content="ReWorth - 科学计算消费价值，让每一分钱都物有所值">
+  <meta property="og:description" content="免费CPW计算App，帮助你科学评估每一次消费的真实价值。支持健身卡、奢侈品、数码产品等多种场景。">
+  <meta property="og:image" content="https://reworth.app/og-image.jpg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://reworth.app/">
+  <meta property="twitter:title" content="ReWorth - 科学计算消费价值">
+  <meta property="twitter:description" content="免费CPW计算App，让每一分钱都物有所值">
+  <meta property="twitter:image" content="https://reworth.app/og-image.jpg">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- JSON-LD Structured Data for AI Search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "ReWorth",
+    "applicationCategory": "FinanceApplication",
+    "operatingSystem": "iOS",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "ratingCount": "1"
+    },
+    "description": "ReWorth是一款免费的CPW（Cost Per Wear）计算应用，帮助用户科学评估消费品的真实价值。通过追踪使用频率和计算单次使用成本，让每一次消费决策都更加理性和明智。",
+    "featureList": [
+      "CPW单次使用成本计算",
+      "健身卡回本追踪",
+      "奢侈品折旧监测",
+      "数码产品使用频率分析",
+      "多场景消费价值评估"
+    ],
+    "screenshot": "https://reworth.app/screenshot.jpg",
+    "downloadUrl": "https://apps.apple.com/us/app/reworth/id6757487312",
+    "author": {
+      "@type": "Organization",
+      "name": "ReWorth"
+    },
+    "datePublished": "2024-01-01"
+  }
+  </script>
+  
+  <!-- Additional Structured Data for FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "什么是CPW（单次使用成本）？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "CPW（Cost Per Wear）是指将商品的购买价格除以使用次数，得出的单次使用成本。这个指标能帮助你科学评估一件商品的真实价值。例如，一件3000元的大衣如果穿了100次，CPW就是30元/次；而一件300元的快时尚外套如果只穿了5次，CPW则是60元/次。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如何判断一张健身年卡是否值得办？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "使用ReWorth的CPW计算功能：1）记录健身卡价格（如3000元/年）；2）设定目标使用次数（如每周3次，一年约150次）；3）计算目标CPW（3000÷150=20元/次）；4）实际追踪每次去健身房的记录；5）对比实际CPW与目标CPW。如果实际使用频率达到预期，这张卡就是值得的。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "为什么昂贵的大衣可能比快时尚更省钱？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "这是CPW思维的核心洞察。一件5000元的高质量大衣，如果你穿了200次，CPW是25元/次；而一件500元的快时尚大衣，如果质量差只穿了10次就不想穿了，CPW是50元/次。高质量商品虽然初始投入大，但因为耐用性好、款式经典，使用次数多，最终的单次成本反而更低。这就是'贵的便宜，便宜的贵'的数学证明。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "ReWorth适合追踪哪些类型的消费？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "ReWorth适合所有可重复使用的消费品：1）服装配饰：衣服、鞋子、包包、手表等；2）健身娱乐：健身卡、瑜伽课程、游戏会员等；3）数码产品：耳机、键盘、相机等；4）生活用品：厨具、家具、工具等。任何你想知道'用够本没有'的东西，都可以用ReWorth追踪。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "如何用ReWorth做出更明智的消费决策？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "三步法：1）购买前预估：输入商品价格和预期使用次数，计算目标CPW，评估是否在可接受范围内；2）使用中追踪：每次使用后在App中记录，实时查看当前CPW；3）复盘优化：定期查看各类消费的CPW数据，识别哪些消费物有所值，哪些是冲动消费，未来做出更理性的选择。"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          让每一分钱都<span class="text-gradient">物有所值</span>
+        </h1>
+        <p class="hero-description">
+          科学计算CPW（单次使用成本），用数据驱动你的消费决策。<br>
+          从健身卡到奢侈品，从数码产品到日常穿搭，ReWorth帮你追踪每一次使用的真实价值。
+        </p>
+        <div class="hero-cta">
+          <a href="https://apps.apple.com/us/app/reworth/id6757487312" class="btn btn-primary" target="_blank" rel="noopener">
+            <span>免费下载 App</span>
+            <span>→</span>
+          </a>
+          <a href="#how-it-works" class="btn btn-secondary">
+            <span>了解工作原理</span>
+          </a>
+        </div>
+        <div class="hero-visual float-animation">
+          <img src="hero-image.jpg" alt="ReWorth App界面展示" class="hero-image" id="hero-img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Module A: Pain Point Recreation (Q&A Style) -->
+  <section class="section" id="pain-points">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">你是否也有这些困惑？</h2>
+        <p class="section-subtitle">这些消费难题，ReWorth都能帮你解答</p>
+      </div>
+      
+      <div class="feature-grid">
+        <article class="glass-card feature-card reveal">
+          <div class="feature-icon">💸</div>
+          <h3 class="feature-title">为什么我买的昂贵大衣<br>其实比快时尚更省钱？</h3>
+          <p class="feature-description">
+            一件5000元的经典大衣穿200次，CPW只要25元/次；而500元的快时尚外套穿10次就不想穿了，CPW高达50元/次。<strong>贵的便宜，便宜的贵</strong>，CPW用数据告诉你真相。
+          </p>
+        </article>
+        
+        <article class="glass-card feature-card reveal">
+          <div class="feature-icon">🏋️</div>
+          <h3 class="feature-title">办的健身年卡<br>真的用够本了吗？</h3>
+          <p class="feature-description">
+            3000元的健身年卡，如果只去了15次，每次成本200元——比单次购买还贵！ReWorth帮你<strong>实时追踪使用频率</strong>，让健身投资不再打水漂。
+          </p>
+        </article>
+        
+        <article class="glass-card feature-card reveal">
+          <div class="feature-icon">👜</div>
+          <h3 class="feature-title">如何科学评估<br>一次消费的真实价值？</h3>
+          <p class="feature-description">
+            不看价格标签，看<strong>使用价值</strong>。通过CPW公式（购买价格÷使用次数），ReWorth让你从"买得起"转变为"用得值"的消费思维。
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Module B: Core Logic Display (Formula-based) -->
+  <section class="section" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">核心计算逻辑</h2>
+        <p class="section-subtitle">一个简单而强大的公式，改变你的消费观</p>
+      </div>
+      
+      <div class="formula-container reveal">
+        <h3 style="color: var(--text-primary); margin-bottom: var(--spacing-md);">CPW 计算公式</h3>
+        <div class="formula">
+          CPW = 购买价格 ÷ 使用次数
+        </div>
+        <p class="formula-explanation">
+          <strong>Cost Per Wear（单次使用成本）</strong>是评估消费价值的黄金标准。<br>
+          这个公式适用于所有可重复使用的商品，帮助你从<strong>长期价值</strong>而非短期价格做决策。
+        </p>
+      </div>
+      
+      <div class="stats-grid reveal">
+        <div class="stat-card">
+          <div class="stat-number">10次</div>
+          <div class="stat-label">快时尚平均使用次数</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">200次</div>
+          <div class="stat-label">高质量单品使用次数</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">20倍</div>
+          <div class="stat-label">使用价值差距</div>
+        </div>
+      </div>
+      
+      <blockquote style="max-width: 800px; margin: var(--spacing-2xl) auto; padding: var(--spacing-lg); border-left: 4px solid var(--brand-primary); background: var(--glass-bg); border-radius: var(--radius-md); font-style: italic; color: var(--text-secondary);">
+        "可持续消费的本质不是不消费，而是<strong>消费得更有价值</strong>。CPW思维让我们从追求'拥有'转向追求'使用'，这是消费主义时代最需要的理性工具。"
+        <footer style="margin-top: var(--spacing-sm); font-size: var(--text-sm); color: var(--text-muted);">
+          — 参考：<a href="https://en.wikipedia.org/wiki/Sustainable_consumption" target="_blank" rel="noopener" style="color: var(--brand-primary-light);">Wikipedia: Sustainable Consumption</a>
+        </footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <!-- Module C: Scenario-based Use Cases -->
+  <section class="section" id="use-cases">
+    <div class="container-wide">
+      <div class="section-header">
+        <h2 class="section-title">适用场景</h2>
+        <p class="section-subtitle">从日常穿搭到健身娱乐，ReWorth覆盖你的所有消费场景</p>
+      </div>
+      
+      <div class="use-cases-grid">
+        <article class="glass-card use-case-card reveal">
+          <img src="usecase-fitness.jpg" alt="健身卡回本计算" class="use-case-image" id="usecase-fitness-img">
+          <div class="use-case-overlay">
+            <h3 class="use-case-title">💪 健身卡回本计算</h3>
+            <p class="use-case-description">
+              追踪每次健身房打卡，实时计算CPW。3000元年卡去150次=20元/次，让你的健身投资清晰可见。
+            </p>
+          </div>
+        </article>
+        
+        <article class="glass-card use-case-card reveal">
+          <img src="usecase-luxury.jpg" alt="大牌包包折旧追踪" class="use-case-image" id="usecase-luxury-img">
+          <div class="use-case-overlay">
+            <h3 class="use-case-title">👜 大牌包包折旧追踪</h3>
+            <p class="use-case-description">
+              20000元的经典款包包，使用500次后CPW仅40元。比每天换新的平价包更划算，更环保。
+            </p>
+          </div>
+        </article>
+        
+        <article class="glass-card use-case-card reveal">
+          <img src="usecase-tech.jpg" alt="数码产品使用频率监测" class="use-case-image" id="usecase-tech-img">
+          <div class="use-case-overlay">
+            <h3 class="use-case-title">🎧 数码产品使用频率监测</h3>
+            <p class="use-case-description">
+              2000元的降噪耳机每天使用，一年365次CPW=5.5元。高频使用的数码产品，投资回报率惊人。
+            </p>
+          </div>
+        </article>
+        
+        <article class="glass-card use-case-card reveal">
+          <img src="usecase-fashion.jpg" alt="服装单次穿着成本分析" class="use-case-image" id="usecase-fashion-img">
+          <div class="use-case-overlay">
+            <h3 class="use-case-title">👗 服装单次穿着成本分析</h3>
+            <p class="use-case-description">
+              对比快时尚vs高质量单品的真实成本。数据说话，让你的衣橱投资更明智，更可持续。
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Module D: FAQ Section (AI Traffic Pool) -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">常见问题</h2>
+        <p class="section-subtitle">关于CPW和ReWorth，你想知道的都在这里</p>
+      </div>
+      
+      <div class="faq-container">
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>什么是CPW（单次使用成本）？</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p><strong>CPW（Cost Per Wear）</strong>是指将商品的购买价格除以使用次数，得出的单次使用成本。这个指标能帮助你科学评估一件商品的真实价值。</p>
+              <p>例如：</p>
+              <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm);">
+                <li>一件3000元的大衣穿了100次 → CPW = 30元/次</li>
+                <li>一件300元的快时尚外套只穿了5次 → CPW = 60元/次</li>
+              </ul>
+              <p style="margin-top: var(--spacing-sm);">虽然大衣价格更高，但因为使用次数多，<strong>单次成本反而更低</strong>，这就是CPW思维的核心价值。</p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>如何判断一张健身年卡是否值得办？</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>使用ReWorth的CPW计算功能，分五步评估：</p>
+              <ol style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm); line-height: 2;">
+                <li><strong>记录价格</strong>：例如健身卡3000元/年</li>
+                <li><strong>设定目标</strong>：预期每周去3次，一年约150次</li>
+                <li><strong>计算目标CPW</strong>：3000÷150 = 20元/次</li>
+                <li><strong>实际追踪</strong>：每次去健身房在App中打卡记录</li>
+                <li><strong>对比分析</strong>：实际CPW vs 目标CPW</li>
+              </ol>
+              <p style="margin-top: var(--spacing-sm);"><strong>判断标准</strong>：如果实际CPW ≤ 单次购买价格（如30元/次），这张卡就是值得的。ReWorth会实时显示你的"回本进度"，让健身投资一目了然。</p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>为什么昂贵的大衣可能比快时尚更省钱？</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>这是<strong>CPW思维的核心洞察</strong>：价格不等于成本，使用价值才是关键。</p>
+              <p><strong>案例对比：</strong></p>
+              <div style="background: var(--bg-secondary); padding: var(--spacing-md); border-radius: var(--radius-md); margin: var(--spacing-md) 0;">
+                <p style="color: var(--brand-primary-light); margin-bottom: var(--spacing-xs);"><strong>高质量大衣</strong></p>
+                <p>购买价格：5000元 | 使用次数：200次 | <strong>CPW = 25元/次</strong></p>
+              </div>
+              <div style="background: var(--bg-secondary); padding: var(--spacing-md); border-radius: var(--radius-md);">
+                <p style="color: var(--color-warning); margin-bottom: var(--spacing-xs);"><strong>快时尚大衣</strong></p>
+                <p>购买价格：500元 | 使用次数：10次 | <strong>CPW = 50元/次</strong></p>
+              </div>
+              <p style="margin-top: var(--spacing-md);">高质量商品虽然初始投入大，但因为<strong>耐用性好、款式经典</strong>，使用次数多，最终的单次成本反而更低。这就是"贵的便宜，便宜的贵"的数学证明。</p>
+              <p style="margin-top: var(--spacing-sm); font-style: italic; color: var(--text-muted);">参考研究：<a href="https://en.wikipedia.org/wiki/Fast_fashion#Environmental_impact" target="_blank" rel="noopener" style="color: var(--brand-primary-light);">快时尚的环境成本</a></p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>ReWorth适合追踪哪些类型的消费？</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>ReWorth适合<strong>所有可重复使用的消费品</strong>，主要包括四大类：</p>
+              <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm); line-height: 2;">
+                <li><strong>👗 服装配饰</strong>：衣服、鞋子、包包、手表、首饰等</li>
+                <li><strong>🏋️ 健身娱乐</strong>：健身卡、瑜伽课程、游戏会员、流媒体订阅等</li>
+                <li><strong>💻 数码产品</strong>：耳机、键盘、鼠标、相机、平板等</li>
+                <li><strong>🏠 生活用品</strong>：厨具、家具、工具、运动器材等</li>
+              </ul>
+              <p style="margin-top: var(--spacing-md);"><strong>核心原则</strong>：任何你想知道"用够本没有"的东西，都可以用ReWorth追踪。不适合追踪的是一次性消费品（如食物、化妆品等）。</p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>如何用ReWorth做出更明智的消费决策？</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p><strong>三步法：购买前预估 → 使用中追踪 → 定期复盘</strong></p>
+              <div style="margin-top: var(--spacing-md);">
+                <p style="color: var(--brand-primary-light); font-weight: 600;">1️⃣ 购买前预估</p>
+                <p style="margin-left: var(--spacing-md); margin-bottom: var(--spacing-md);">输入商品价格和预期使用次数，计算目标CPW。如果CPW在可接受范围内（如≤50元/次），再考虑购买。</p>
+                
+                <p style="color: var(--brand-primary-light); font-weight: 600;">2️⃣ 使用中追踪</p>
+                <p style="margin-left: var(--spacing-md); margin-bottom: var(--spacing-md);">每次使用后在App中记录，实时查看当前CPW。ReWorth会显示"回本进度"和使用趋势图，让你清楚知道这笔消费是否物有所值。</p>
+                
+                <p style="color: var(--brand-primary-light); font-weight: 600;">3️⃣ 定期复盘</p>
+                <p style="margin-left: var(--spacing-md);">每月或每季度查看各类消费的CPW数据，识别哪些消费物有所值（低CPW），哪些是冲动消费（高CPW）。用数据优化未来的消费决策。</p>
+              </div>
+              <p style="margin-top: var(--spacing-md); padding: var(--spacing-md); background: var(--bg-secondary); border-radius: var(--radius-md); border-left: 3px solid var(--brand-primary);">
+                <strong>💡 Pro Tip</strong>：设定个人CPW标准（如服装≤30元/次，数码≤10元/次），作为消费决策的参考基准。
+              </p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>CPW思维如何帮助实现可持续消费？</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p>CPW思维与可持续消费理念完美契合，体现在三个方面：</p>
+              <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm); line-height: 2;">
+                <li><strong>减少冲动消费</strong>：购买前计算CPW，避免买了不用的浪费</li>
+                <li><strong>延长使用寿命</strong>：追踪使用次数会激励你多用已有物品，而非不断买新</li>
+                <li><strong>优先高质量</strong>：数据证明高质量商品的长期成本更低，自然选择更耐用的产品</li>
+              </ul>
+              <p style="margin-top: var(--spacing-md);">根据研究，<strong>快时尚行业是全球第二大污染源</strong>。通过CPW思维，我们从"买得多"转向"用得久"，这不仅省钱，更是对环境负责。</p>
+              <p style="margin-top: var(--spacing-sm); font-style: italic; color: var(--text-muted);">
+                延伸阅读：<a href="https://en.wikipedia.org/wiki/Overconsumption" target="_blank" rel="noopener" style="color: var(--brand-primary-light);">过度消费的社会影响</a>
+              </p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>ReWorth是免费的吗？有什么功能？</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p><strong>是的，ReWorth完全免费！</strong></p>
+              <p style="margin-top: var(--spacing-md);">核心功能包括：</p>
+              <ul style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm); line-height: 2;">
+                <li>✅ 无限添加消费品追踪</li>
+                <li>✅ 自动计算CPW和使用统计</li>
+                <li>✅ 可视化图表展示使用趋势</li>
+                <li>✅ 多分类管理（服装、健身、数码等）</li>
+                <li>✅ 购买前CPW预估工具</li>
+                <li>✅ 数据导出和备份</li>
+              </ul>
+              <p style="margin-top: var(--spacing-md);">ReWorth的使命是帮助每个人做出更理性的消费决策，所以我们坚持<strong>免费提供核心功能</strong>，让CPW思维惠及更多人。</p>
+            </div>
+          </div>
+        </article>
+        
+        <article class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>如何开始使用ReWorth？</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-content">
+              <p><strong>三步开启你的CPW之旅：</strong></p>
+              <ol style="margin-left: var(--spacing-lg); margin-top: var(--spacing-sm); line-height: 2;">
+                <li><strong>下载App</strong>：在App Store搜索"ReWorth"或点击<a href="https://apps.apple.com/us/app/reworth/id6757487312" target="_blank" rel="noopener" style="color: var(--brand-primary-light);">这里下载</a></li>
+                <li><strong>添加第一件物品</strong>：选择你最常用的一件消费品（如常穿的外套、健身卡等），输入购买价格</li>
+                <li><strong>开始追踪</strong>：每次使用后打开App记录，观察CPW的变化</li>
+              </ol>
+              <p style="margin-top: var(--spacing-md); padding: var(--spacing-md); background: var(--bg-secondary); border-radius: var(--radius-md);">
+                <strong>💡 新手建议</strong>：先从3-5件高频使用的物品开始追踪，养成记录习惯后再逐步扩展。一个月后，你会惊讶于数据带来的洞察！
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-section reveal">
+        <div class="cta-content">
+          <h2 class="cta-title">开始你的理性消费之旅</h2>
+          <p class="cta-description">
+            免费下载ReWorth，用数据驱动每一次消费决策
+          </p>
+          <a href="https://apps.apple.com/us/app/reworth/id6757487312" target="_blank" rel="noopener">
+            <button class="cta-button">立即下载 - 完全免费</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div>
+          <p style="color: var(--text-secondary);">&copy; 2024 ReWorth. 让每一分钱都物有所值。</p>
+        </div>
+        <div class="footer-links">
+          <a href="https://apps.apple.com/us/app/reworth/id6757487312" class="footer-link" target="_blank" rel="noopener">App Store</a>
+          <a href="mailto:support@reworth.app" class="footer-link">联系我们</a>
+          <a href="#faq" class="footer-link">常见问题</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
